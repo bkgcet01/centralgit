@@ -1,0 +1,3 @@
+ $ chkconfig ipsec on
+           $ service ipsec start
+           $ service ipsec status
