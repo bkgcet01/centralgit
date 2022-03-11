@@ -1,0 +1,6 @@
+#tar -czvf - $F | ssh dr "tar -xvzf - -C /wmsarch/wsprd/arch/"
+tar -czvf - $F | ssh newdr "tar -xvzf - -C /wmsarch/wsprd/arch/"
+mv $F /wmsarch/wsprd/arch_mig
+echo $F
+done
+cd $OLD
